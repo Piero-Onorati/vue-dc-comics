@@ -6,7 +6,7 @@
     <MainContent/>
     <!-- <HighlightedContent/> -->
     <Footer/>
-    <!-- <CTASocial/> -->
+    <CTASocial/>
   </div>
 </template>
 
@@ -16,7 +16,7 @@ import Header from './components/Header.vue'
 import MainContent from './components/MainContent.vue'
 // import HighlightedContent from './components/HighlightedContent.vue'
 import Footer from './components/Footer.vue'
-// import CTASocial from './components/CTASocial.vue'
+import CTASocial from './components/CTASocial.vue'
 
 
 export default {
@@ -27,7 +27,7 @@ export default {
     MainContent,
     // HighlightedContent,
     Footer,
-    // CTASocial
+    CTASocial
   }
 }
 </script>
