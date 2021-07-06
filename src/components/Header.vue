@@ -109,7 +109,7 @@ export default {
             a{
                 display: inline-block;
                 color: $dark;
-                font-size:13px ;
+                font-size:$fsize-sm;
                 font-weight: $weight-font;
                 text-transform: uppercase;
                 text-decoration: none;
