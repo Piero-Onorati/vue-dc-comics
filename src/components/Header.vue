@@ -100,35 +100,28 @@ export default {
         line-height: 86px;
         margin: 0 15px;
         
-
-        &.active{
-            color:$primary;
-            border-bottom:4px solid $primary;
-
-        }
-
-        a{
-            display: inline-block;
-            color: $dark;
-            font-size:13px ;
-            font-weight: $weight-font;
-            text-transform: uppercase;
-            text-decoration: none;
-
+            &:hover,
             &.active{
                 color:$primary;
-
+                border-bottom:4px solid $primary;
             }
-        }
+
+            a{
+                display: inline-block;
+                color: $dark;
+                font-size:13px ;
+                font-weight: $weight-font;
+                text-transform: uppercase;
+                text-decoration: none;
+
+                &:hover,
+                &.active{
+                    color:$primary;
+                }
+            }
         
         }
     }
-
-    
-    
-
-    
-    
 }
 
 </style>
