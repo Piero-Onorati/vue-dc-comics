@@ -46,14 +46,8 @@
                         <li><a href="#">MAD Magazine</a></li>
                     </ul>
                 </div>
-                    
             </div>
-            <!-- <div class="logo-img">
-                <img src="../assets/img/dc-logo-bg.png" alt="">
-            </div> -->
-
         </div>
-        
     </footer>
   
 </template>
@@ -103,12 +97,10 @@ footer{
                     text-decoration:none;
                     color:$light;
                     font-size: 12px;
-                }
+                    }
                 }
 
-                
             }
-
 
         }
         
