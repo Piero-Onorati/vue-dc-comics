@@ -17,7 +17,6 @@ export default {
 @import '@/style/vars.scss';
 
 section{
-    height: 120px;
     background-color: $darkest;
 
     h2{

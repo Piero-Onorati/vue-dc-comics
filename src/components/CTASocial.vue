@@ -3,7 +3,6 @@
         <div class="container bottom-footer">
             <div class="CTA">
                 <h4>sign-up now!</h4>
-
             </div>
             <div class="social-icons">
                 <h3>follow us</h3>
@@ -14,9 +13,7 @@
                 <img src="../assets/img/footer-periscope.png" alt="Periscope icon">
             </div>
         </div>
-
     </section>
-  
 </template>
 
 <script>
