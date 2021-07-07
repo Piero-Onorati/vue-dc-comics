@@ -1,17 +1,21 @@
 <template>
-    <header class="container header">
-        <a href="#">
-            <img src="../assets/img/dc-logo.png" alt="logo">
-        </a>
-        <nav>
-            <ul>
-                <li v-for="(link,index) in links" :key="index" :class="{ active: link.selected }">
-                    <a :href="link.url" :class="{ active: link.selected }">{{link.text}}</a>
-                </li>
-            </ul>
-        </nav>
+    <header>
+        <div class="container header">
+            <a href="#">
+                <img src="../assets/img/dc-logo.png" alt="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li v-for="(link,index) in links" :key="index" :class="{ active: link.selected }">
+                        <a :href="link.url" :class="{ active: link.selected }">{{link.text}}</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
+        <div class="jumbotron"></div>
     </header>
+
 </template>
 
 <script>
@@ -122,6 +126,12 @@ export default {
         
         }
     }
+}
+
+.jumbotron{
+    height: 320px;
+    background-image: url('../assets/img/jumbotron.jpg');
+    background-size: cover;
 }
 
 </style>
