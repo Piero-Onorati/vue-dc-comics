@@ -1,9 +1,12 @@
 <template>
     <section>
         <div class="container bottom-footer">
+            <!-- Call To Action Button -->
             <div class="CTA">
                 <h4>sign-up now!</h4>
             </div>
+
+            <!-- All Social Icons -->
             <div class="social-icons">
                 <h3>follow us</h3>
                 <img src="../assets/img/footer-facebook.png" alt="facebook icon">
@@ -19,7 +22,6 @@
 <script>
 export default {
     name:'CTASocial'
-
 }
 </script>
 

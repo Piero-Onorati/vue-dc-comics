@@ -1,9 +1,13 @@
 <template>
     <header>
-        <div class="container header">
+        <!-- start  top-header -->
+        <div class="container top-header">
+            <!-- Logo -->
             <a href="#">
                 <img src="../assets/img/dc-logo.png" alt="logo">
             </a>
+
+            <!-- NAV menu -->
             <nav>
                 <ul>
                     <li v-for="(link,index) in links" :key="index" :class="{ active: link.selected }">
@@ -12,72 +16,23 @@
                 </ul>
             </nav>
         </div>
+        <!-- end top-header -->
 
+        <!-- Jumbotron -->
         <div class="jumbotron"></div>
     </header>
 
 </template>
 
 <script>
+import NavLinks from '@/data/NavLinks.js'
 export default {
     name:'Header',
     data(){
         return{
-            links:[
-                {
-                    text:'characters',
-                    url: '#',
-                    selected: false
-                },
-                {
-                    text:'comics',
-                    url: '#',
-                    selected: true
-                },
-                {
-                    text:'movie',
-                    url: '#',
-                    selected: false
-                },
-                {
-                    text:'tv',
-                    url: '#',
-                    selected: false
-                },
-                {
-                    text:'games',
-                    url: '#',
-                    selected: false
-                },
-                {
-                    text:'collectibles',
-                    url: '#',
-                    selected: false
-                },
-                {
-                    text:'videos',
-                    url: '#',
-                    selected: false
-                },
-                {
-                    text:'fan',
-                    url: '#',
-                    selected: false
-                },
-                {
-                    text:'news',
-                    url: '#',
-                    selected: false
-                },
-                {
-                    text:'shop',
-                    url: '#',
-                    selected: false
-                }
-            ]
+            links:NavLinks
         }
     }
-
 
 }
 </script>
@@ -85,7 +40,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/vars.scss';
 
-.header{
+.top-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -123,7 +78,6 @@ export default {
                     color:$primary;
                 }
             }
-        
         }
     }
 }

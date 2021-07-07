@@ -2,6 +2,7 @@
     <footer>
         <div class="container footer">
             <div class="all-links-container">
+                <!-- start first column -->
                 <div class="column">
                     <ul>
                         <li>DC Comics</li>
@@ -19,7 +20,9 @@
                         <li><a href="#">Shop DC Collectibles</a></li>
                     </ul>
                 </div>
+                <!-- end first column -->
 
+                <!-- start second column -->
                 <div class="column">
                     <ul>
                         <li>DC</li>
@@ -35,7 +38,9 @@
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
+                <!-- end second column -->
 
+                <!-- start third column -->
                 <div class="column">
                     <ul>
                         <li>Sites</li>
@@ -46,6 +51,7 @@
                         <li><a href="#">MAD Magazine</a></li>
                     </ul>
                 </div>
+                <!-- end third column -->
             </div>
         </div>
     </footer>
@@ -55,7 +61,6 @@
 <script>
 export default {
     name:'Footer'
-
 }
 </script>
 
@@ -74,7 +79,6 @@ footer{
         padding: 20px 0 50px 0;
         display: flex;
         justify-content: flex-start;
-
 
         .all-links-container{
             display: flex;

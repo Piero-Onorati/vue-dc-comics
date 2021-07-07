@@ -1,20 +1,22 @@
 <template>
     <section>
         <div class="container">
+            <!-- Label -->
             <span class="label">current series</span>
+
+            <!-- Box with all the comics -->
             <div class="books-box">
-                <Card v-for="(book,index) in books" 
-                :key="index"
-                :element="book"
-                />
+                <Card v-for="(book,index) in books" :key="index" :element="book"/>
             </div>
+
+            <!-- Button -->
             <span class="button">Load More</span>
         </div>
     </section>
 </template>
 
 <script>
-// import CardProduct from '/CardProduct.vue'
+
 import Comics from '@/data/Comics.js';
 import Card from './Card.vue'
 
